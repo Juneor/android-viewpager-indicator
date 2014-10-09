@@ -1,4 +1,4 @@
 android-viewpager-indicator
 ===========================
 
-android viewpager indicator
+![demo](demo.gif)
