@@ -16,25 +16,25 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class FadingIndicator extends LinearLayout {
+public class FadeTabIndicator extends LinearLayout {
     private ViewPager mViewPager;
     private PageListener pageListener = new PageListener();
     private LinearLayout.LayoutParams tabLayoutParams;
     private int imageSize = 24; // dp
     private int textSize = 14; // sp
 
-    public FadingIndicator(Context context) {
+    public FadeTabIndicator(Context context) {
         super(context);
         init();
     }
 
-    public FadingIndicator(Context context, AttributeSet attrs) {
+    public FadeTabIndicator(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-    public FadingIndicator(Context context, AttributeSet attrs, int defStyleAttr) {
+    public FadeTabIndicator(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }
